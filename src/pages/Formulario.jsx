@@ -17,7 +17,7 @@ const FormPage = () => {
   return (
     <div>
       <h3>Formulário Teste Console</h3>
-      <Input label="Digite algo: " value={inputValue} onChange={handleInputChange} />
+      <Input label="Digite algo: " value={inputValue} onChange={handleInputChange} /><br/>
       <Button label="Enviar" onClick={handleButtonClick} />
     </div>
   );

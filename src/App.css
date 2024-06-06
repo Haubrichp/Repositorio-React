@@ -4,6 +4,13 @@
   padding: 2rem;
   text-align: center;
 }
+.relógio {
+  background-color: #363131;
+  padding: 10px;
+  border-radius: 8px;
+  /* Outros estilos conforme necessário */
+}
+
 
 .logo {
   height: 6em;

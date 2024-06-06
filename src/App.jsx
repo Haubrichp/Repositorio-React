@@ -6,6 +6,7 @@ import { Clock } from './components/LocalDateTime'
 import FormPage from './pages/Formulario'
 import SearchBar from './components/SearchBar'
 import Colors from './components/Colors'
+import ListaItens from './components/ListaDeItens'
 
 
 function App() {
@@ -15,14 +16,14 @@ function App() {
 
   return (
     <>
-   
+      <ListaItens/>
       <h2>Botão Contador</h2>
      <button onClick={() => setCount((count) => count + 1)}>
           Contador igual: {count}
         </button> 
         <br/><br/><FormPage /><br/><br/>
-        <h3>Hora Local
-        <Clock/></h3>
+        <div className='relógio'> <h3>Hora Local
+        <Clock/></h3> </div>
         <br/><br/>
         
         <button> <SearchBar items={['banana','batata','boliche', 'banco','banca', 'bola ', 'bateria']} /></button>
